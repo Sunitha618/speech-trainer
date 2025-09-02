@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# AI-Powered Public Speaking Training Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The **AI-Powered Public Speaking Training Platform** is an intelligent coaching system designed to improve confidence, improvisation, vocal control, and adaptability in public speaking.  
+Unlike conventional training methods, it combines **speech recognition, voice analysis, psychological metrics, and AI coaching agents** to deliver personalized, real-time feedback.
 
-## Available Scripts
+## Features
+- **Real-Time Speech & Voice Analysis**  
+  - Words per minute, hesitation rate, filler detection ("um", "uh", "er")  
+  - Acoustic metrics: pitch stability, RMS volume, FFT-based frequency analysis  
 
-In the project directory, you can run:
+- **Psychology Metrics Engine**  
+  - Confidence Fusion Score  
+  - Stress Index monitoring  
+  - Antifragility Score for speaker resilience  
 
-### `npm start`
+- **AI Coaching Agents**  
+  - Neural Advisor (analytical, supportive, strategic personalities)  
+  - Recovery Specialist (stress management & resilience coaching)  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Interactive Training Games**  
+  - Chaos Integration – Think fast, adapt to random word injections  
+  - Energy Modulator – Train energy levels & vocal dynamics  
+  - Rapid Fire Analogies – Build quick-thinking & improvisation  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Privacy-Friendly & Real-Time**  
+  - Browser-native processing (no external API required)  
+  - Sub-200ms latency for seamless feedback  
 
-### `npm test`
+## System Architecture
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Visual Architecture
+![System Architecture](https://drive.google.com/uc?export=view&id=1woKoO7oIYhnKqZUV7_ooSZ21fm7SAzme)
 
-### `npm run build`
+### Mermaid Diagram
+```mermaid
+graph LR
+A[Speech Recognition] --> B[Voice Analysis]
+B --> C[Psychology Metrics]
+C --> D[AI Coaching Agents]
+D --> E[Dashboard & Games]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
