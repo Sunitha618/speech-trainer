@@ -29,7 +29,6 @@ Unlike conventional training methods, it combines **speech recognition, voice an
 
 ## System Architecture
 
-### Visual Architecture
 ![System Architecture](https://drive.google.com/uc?export=view&id=1woKoO7oIYhnKqZUV7_ooSZ21fm7SAzme)
 
 ## Tech Stack
