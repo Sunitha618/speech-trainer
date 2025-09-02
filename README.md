@@ -32,12 +32,13 @@ Unlike conventional training methods, it combines **speech recognition, voice an
 ### Visual Architecture
 ![System Architecture](https://drive.google.com/uc?export=view&id=1woKoO7oIYhnKqZUV7_ooSZ21fm7SAzme)
 
-### Mermaid Diagram
-```mermaid
-graph LR
-A[Speech Recognition] --> B[Voice Analysis]
-B --> C[Psychology Metrics]
-C --> D[AI Coaching Agents]
-D --> E[Dashboard & Games]
+## Tech Stack
+```bash
+Frontend: React.js
+Styling: TailwindCSS, Framer Motion
+Visualization: Recharts, Lucide Icons
+AI/Analysis: Custom speech & voice analysis modules, FFT, psychological scoring algorithms
+State Management: React hooks, session persistence
+
 
 
